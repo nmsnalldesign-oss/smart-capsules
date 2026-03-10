@@ -44,10 +44,10 @@ export default function About() {
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
 
                 {/* --- HEADER --- */}
-                <div className="mb-16">
+                <div className="mb-16 text-center md:text-left">
                     <motion.h2
-                        initial={{ opacity: 0, x: -30 }}
-                        whileInView={{ opacity: 1, x: 0 }}
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true, margin: "200px" }}
                         transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
                         className="text-4xl md:text-5xl font-bold text-gray-900 font-[var(--font-outfit)]"

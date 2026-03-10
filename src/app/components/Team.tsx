@@ -34,8 +34,8 @@ export default function Team() {
         <section id="team" className="pt-12 pb-20 bg-gray-50">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
 
-                <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
-                    <div className="max-w-2xl text-center md:text-left">
+                <div className="flex flex-col md:flex-row justify-between items-center md:items-end mb-16 gap-8">
+                    <div className="w-full max-w-2xl mx-auto md:mx-0 text-center md:text-left">
                         <motion.h2
                             initial={{ opacity: 0, y: 15 }}
                             whileInView={{ opacity: 1, y: 0 }}
